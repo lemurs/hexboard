@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Ringtail
-//
-//  Created by Klaas Speller on 6/4/14.
-//  Copyright (c) 2014 New Lemurs. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

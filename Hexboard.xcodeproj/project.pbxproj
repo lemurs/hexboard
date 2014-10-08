@@ -8,47 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		4A59019F193F40D900FA58D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A59019E193F40D900FA58D1 /* AppDelegate.swift */; };
-		4A5901A1193F40D900FA58D1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4A5901A0193F40D900FA58D1 /* GameScene.sks */; };
-		4A5901A3193F40D900FA58D1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5901A2193F40D900FA58D1 /* GameScene.swift */; };
 		4A5901A5193F40D900FA58D1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5901A4193F40D900FA58D1 /* GameViewController.swift */; };
 		4A5901A8193F40D900FA58D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5901A6193F40D900FA58D1 /* Main.storyboard */; };
 		4A5901AA193F40D900FA58D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5901A9193F40D900FA58D1 /* Images.xcassets */; };
-		4A5901B6193F40D900FA58D1 /* RingtailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5901B5193F40D900FA58D1 /* RingtailTests.swift */; };
+		4AD0D7B719E576DC0059DEFA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4AD0D7B619E576DC0059DEFA /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4A5901B0193F40D900FA58D1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A590191193F40D900FA58D1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4A590198193F40D900FA58D1;
-			remoteInfo = Ringtail;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		4A590199193F40D900FA58D1 /* Ringtail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ringtail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A590199193F40D900FA58D1 /* Hexboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hexboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A59019D193F40D900FA58D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A59019E193F40D900FA58D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A5901A0193F40D900FA58D1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		4A5901A2193F40D900FA58D1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4A5901A4193F40D900FA58D1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		4A5901A7193F40D900FA58D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A5901A9193F40D900FA58D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4A5901AF193F40D900FA58D1 /* RingtailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingtailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A5901B4193F40D900FA58D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A5901B5193F40D900FA58D1 /* RingtailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingtailTests.swift; sourceTree = "<group>"; };
+		4A5901BF193F41BA00FA58D1 /* GamePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = GamePlayground.playground; path = Hexboard/GamePlayground.playground; sourceTree = SOURCE_ROOT; };
+		4AD0D7B619E576DC0059DEFA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = GamePlayground.playground/Resources/GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4A590196193F40D900FA58D1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A5901AC193F40D900FA58D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,8 +39,7 @@
 		4A590190193F40D900FA58D1 = {
 			isa = PBXGroup;
 			children = (
-				4A59019B193F40D900FA58D1 /* Ringtail */,
-				4A5901B2193F40D900FA58D1 /* RingtailTests */,
+				4A59019B193F40D900FA58D1 /* Hexboard */,
 				4A59019A193F40D900FA58D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,24 +47,19 @@
 		4A59019A193F40D900FA58D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A590199193F40D900FA58D1 /* Ringtail.app */,
-				4A5901AF193F40D900FA58D1 /* RingtailTests.xctest */,
+				4A590199193F40D900FA58D1 /* Hexboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A59019B193F40D900FA58D1 /* Ringtail */ = {
+		4A59019B193F40D900FA58D1 /* Hexboard */ = {
 			isa = PBXGroup;
 			children = (
-				4A59019E193F40D900FA58D1 /* AppDelegate.swift */,
-				4A5901A0193F40D900FA58D1 /* GameScene.sks */,
-				4A5901A2193F40D900FA58D1 /* GameScene.swift */,
-				4A5901A4193F40D900FA58D1 /* GameViewController.swift */,
-				4A5901A6193F40D900FA58D1 /* Main.storyboard */,
-				4A5901A9193F40D900FA58D1 /* Images.xcassets */,
+				4AD0D7B519E5737B0059DEFA /* Application */,
+				4AD0D7B419E571F30059DEFA /* Playground */,
 				4A59019C193F40D900FA58D1 /* Supporting Files */,
 			);
-			path = Ringtail;
+			path = Hexboard;
 			sourceTree = "<group>";
 		};
 		4A59019C193F40D900FA58D1 /* Supporting Files */ = {
@@ -98,29 +70,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4A5901B2193F40D900FA58D1 /* RingtailTests */ = {
+		4AD0D7B419E571F30059DEFA /* Playground */ = {
 			isa = PBXGroup;
 			children = (
-				4A5901B5193F40D900FA58D1 /* RingtailTests.swift */,
-				4A5901B3193F40D900FA58D1 /* Supporting Files */,
+				4A5901BF193F41BA00FA58D1 /* GamePlayground.playground */,
+				4AD0D7B619E576DC0059DEFA /* GameScene.sks */,
 			);
-			path = RingtailTests;
+			name = Playground;
 			sourceTree = "<group>";
 		};
-		4A5901B3193F40D900FA58D1 /* Supporting Files */ = {
+		4AD0D7B519E5737B0059DEFA /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				4A5901B4193F40D900FA58D1 /* Info.plist */,
+				4A59019E193F40D900FA58D1 /* AppDelegate.swift */,
+				4A5901A4193F40D900FA58D1 /* GameViewController.swift */,
+				4A5901A6193F40D900FA58D1 /* Main.storyboard */,
+				4A5901A9193F40D900FA58D1 /* Images.xcassets */,
 			);
-			name = "Supporting Files";
+			name = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A590198193F40D900FA58D1 /* Ringtail */ = {
+		4A590198193F40D900FA58D1 /* Hexboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A5901B9193F40D900FA58D1 /* Build configuration list for PBXNativeTarget "Ringtail" */;
+			buildConfigurationList = 4A5901B9193F40D900FA58D1 /* Build configuration list for PBXNativeTarget "Hexboard" */;
 			buildPhases = (
 				4A590195193F40D900FA58D1 /* Sources */,
 				4A590196193F40D900FA58D1 /* Frameworks */,
@@ -130,28 +105,10 @@
 			);
 			dependencies = (
 			);
-			name = Ringtail;
+			name = Hexboard;
 			productName = Ringtail;
-			productReference = 4A590199193F40D900FA58D1 /* Ringtail.app */;
+			productReference = 4A590199193F40D900FA58D1 /* Hexboard.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4A5901AE193F40D900FA58D1 /* RingtailTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4A5901BC193F40D900FA58D1 /* Build configuration list for PBXNativeTarget "RingtailTests" */;
-			buildPhases = (
-				4A5901AB193F40D900FA58D1 /* Sources */,
-				4A5901AC193F40D900FA58D1 /* Frameworks */,
-				4A5901AD193F40D900FA58D1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4A5901B1193F40D900FA58D1 /* PBXTargetDependency */,
-			);
-			name = RingtailTests;
-			productName = RingtailTests;
-			productReference = 4A5901AF193F40D900FA58D1 /* RingtailTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -164,14 +121,11 @@
 				TargetAttributes = {
 					4A590198193F40D900FA58D1 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					4A5901AE193F40D900FA58D1 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 4A590198193F40D900FA58D1;
+						DevelopmentTeam = 99RB78BE85;
 					};
 				};
 			};
-			buildConfigurationList = 4A590194193F40D900FA58D1 /* Build configuration list for PBXProject "Ringtail" */;
+			buildConfigurationList = 4A590194193F40D900FA58D1 /* Build configuration list for PBXProject "Hexboard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,8 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A590198193F40D900FA58D1 /* Ringtail */,
-				4A5901AE193F40D900FA58D1 /* RingtailTests */,
+				4A590198193F40D900FA58D1 /* Hexboard */,
 			);
 		};
 /* End PBXProject section */
@@ -196,15 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A5901AA193F40D900FA58D1 /* Images.xcassets in Resources */,
-				4A5901A1193F40D900FA58D1 /* GameScene.sks in Resources */,
+				4AD0D7B719E576DC0059DEFA /* GameScene.sks in Resources */,
 				4A5901A8193F40D900FA58D1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A5901AD193F40D900FA58D1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,29 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A5901A3193F40D900FA58D1 /* GameScene.swift in Sources */,
 				4A5901A5193F40D900FA58D1 /* GameViewController.swift in Sources */,
 				4A59019F193F40D900FA58D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A5901AB193F40D900FA58D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A5901B6193F40D900FA58D1 /* RingtailTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4A5901B1193F40D900FA58D1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4A590198193F40D900FA58D1 /* Ringtail */;
-			targetProxy = 4A5901B0193F40D900FA58D1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4A5901A6193F40D900FA58D1 /* Main.storyboard */ = {
@@ -335,9 +264,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = Ringtail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Hexboard;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,52 +283,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = Ringtail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		4A5901BD193F40D900FA58D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ringtail.app/Ringtail";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RingtailTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		4A5901BE193F40D900FA58D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ringtail.app/Ringtail";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RingtailTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				PRODUCT_NAME = Hexboard;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A590194193F40D900FA58D1 /* Build configuration list for PBXProject "Ringtail" */ = {
+		4A590194193F40D900FA58D1 /* Build configuration list for PBXProject "Hexboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A5901B7193F40D900FA58D1 /* Debug */,
@@ -400,21 +309,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A5901B9193F40D900FA58D1 /* Build configuration list for PBXNativeTarget "Ringtail" */ = {
+		4A5901B9193F40D900FA58D1 /* Build configuration list for PBXNativeTarget "Hexboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A5901BA193F40D900FA58D1 /* Debug */,
 				4A5901BB193F40D900FA58D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		4A5901BC193F40D900FA58D1 /* Build configuration list for PBXNativeTarget "RingtailTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4A5901BD193F40D900FA58D1 /* Debug */,
-				4A5901BE193F40D900FA58D1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
